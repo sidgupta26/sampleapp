@@ -1,0 +1,52 @@
+
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: .7rem;
+    color: white;
+    margin : 5px 5px 5px 5px;
+    width : 62px;
+    text-align: center;
+}
+
+.btnFull {
+    background-color: #4bcca5;
+}
+
+.btnFull:hover {
+    background-color: #4bcca5;
+}
+
+.btnFull:active {
+    position: relative;
+    top: 1px;
+}
+
+.inputField {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 1px;
+    text-overflow: clip;
+    background: rgb(255, 255, 255);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 480px) {
+    .inputField {
+        display: block;
+        width: 100%;
+       
+    }
+}

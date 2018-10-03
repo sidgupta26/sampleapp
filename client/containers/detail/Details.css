@@ -1,0 +1,252 @@
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: #4bcca5;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    max-width: 100vw;
+    margin: 0% 5% 3% 0%;
+    background-color: #fff;
+    line-height: 1.5em;
+}
+
+.logo {
+    width: auto;
+    height: 80px;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: .75rem;
+    color: white;
+    margin: 0 1% 0 1%;
+}
+
+.btnFull {
+    background-color: #4bcca5;
+}
+
+/*.btnFull:hover {
+    background-color: #5cbf2a;
+}*/
+
+.btnFull:active {
+    position: relative;
+    top: 1px;
+}
+
+h3 {
+    margin: 2% 0;
+}
+
+.choiceBtn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: .7rem;
+    color: white;
+    margin: 3px 3px 3px 0;
+}
+
+.choiceBtnFull {
+    background-color: #4bcca5;
+}
+
+/*.choiceBtnFull:hover {
+    background-color: #5cbf2a;
+}*/
+
+.choiceBtnFull:active {
+    position: relative;
+    top: 1px;
+}
+
+.select {
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    outline: 0;
+    border: 0px solid #000000;
+    background: #ffffff;
+    font-weight: 200;
+    font-size: 1em;
+    padding: 5px 20px;
+    border: 1px solid #b7b7b7;
+    border-radius: 7px;
+    text-overflow: clip;
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.businessImage {
+    object-fit: 'cover';
+    height: '400px';
+    width: '400px';
+    position: static;
+    display: block
+}
+
+.mapUrl {
+    font-size: .8rem;
+}
+
+.mainSection {
+    margin: 0 auto;
+    width: 95%;
+    padding: 1%;
+}
+
+.mainSection img {
+    margin: 0 auto;
+    width: 100%;
+    height: 20em;
+    border: 1px solid grey;
+    max-width: 100%;
+}
+
+.map {
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+}
+
+
+/*  GRID OF TWELVE   ============================================================================= */
+
+.span12Of12 {
+	width: 100%;
+}
+
+.span11Of12 {
+	width: 91.53%;
+}
+
+.span10Of12 {
+	width: 83.06%;
+}
+
+.span9Of12 {
+	width: 74.6%;
+}
+
+.span8Of12 {
+	width: 66.13%;
+}
+
+.span7Of12 {
+	width: 57.66%; 
+}
+
+.span6Of12 {
+	width: 49.2%; 
+}
+
+.span5Of12 {
+	width: 40.73%; 
+}
+
+.span4Of12 {
+	width: 32.26%; 
+}
+
+.span3Of12 {
+	width: 23.8%;
+}
+
+.span2Of12 {
+	width: 15.33%; 
+}
+
+.span1Of12 {
+	width: 6.86%; 
+}
+
+.noResultsFound {
+    margin: 10% auto 0 auto;
+    font-size: .8rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1280px) {
+    .mainSection {
+        margin: 0 auto;
+        width: 95%;
+        padding: 1%;
+    }
+    .mainSection img {
+        margin: 0 auto;
+        width: 100%;
+        height: 20em;
+        border: 1px solid grey;
+        max-width: 100%;
+    }
+    .map {
+        margin: 0 auto;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (max-width: 767px) {
+    .hero-text-box {
+        position: static;
+        width: 100vw;
+        margin: auto;
+    }
+    .inputField {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .btn {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin: 1% 0 1% 0;
+    }
+    .row {
+        margin: 0% 0% 3% 0%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    main {
+        font-size: .8rem;
+    }
+    .hero-text-box {
+        position: static;
+        width: 100vw;
+        margin: auto;
+    }
+    .inputField {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .btn {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin: 1% 0 1% 0;
+    }
+    .row {
+        margin: 0% 0% 3% 0%;
+    }
+}

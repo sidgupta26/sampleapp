@@ -1,0 +1,30 @@
+
+input.error {
+  border-left: 8px solid #D0021B;
+}
+
+input.pass {
+  border-left: 8px solid #7ED321;
+}
+
+textarea.warn {
+  border-left: 8px solid orange;
+}
+
+textarea.pass {
+  border-left: 8px solid #7ED321;
+}
+
+input.warn {
+  border-left: 8px solid orange;
+}
+
+span.error{
+    color: red;
+    font-size:.8em;
+}
+
+span.warn{
+    color: orange;
+    font-size:.8em;
+}
